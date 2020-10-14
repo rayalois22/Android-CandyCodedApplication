@@ -11,7 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602669026154</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes">
+      <created>1602675167205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602675167205</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,33 +238,34 @@
     <MESSAGE value="Task 2 - Launch Google Maps Activity - in progress" />
     <MESSAGE value="Task 2 - Launch Google Maps Activity - done&#10;Task 3 - Launch Phone Activity - done&#10;Task 4 - Share current candy - in progress" />
     <MESSAGE value="Task 4 - Share current candy - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 - Share current candy - done" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1602662503016">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1602662503016" />
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602669025912">
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602675166826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602669025912" />
-    <state width="1320" height="208" key="GridCell.Tab.0.bottom" timestamp="1602675116674">
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602675166826" />
+    <state width="1320" height="208" key="GridCell.Tab.0.bottom" timestamp="1602675983931">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1602675116674" />
-    <state width="1320" height="208" key="GridCell.Tab.0.center" timestamp="1602675116674">
+    <state width="1320" height="208" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1602675983931" />
+    <state width="1320" height="208" key="GridCell.Tab.0.center" timestamp="1602675983930">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1602675116674" />
-    <state width="1320" height="208" key="GridCell.Tab.0.left" timestamp="1602675116673">
+    <state width="1320" height="208" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1602675983930" />
+    <state width="1320" height="208" key="GridCell.Tab.0.left" timestamp="1602675983929">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1602675116673" />
-    <state width="1320" height="208" key="GridCell.Tab.0.right" timestamp="1602675116674">
+    <state width="1320" height="208" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1602675983929" />
+    <state width="1320" height="208" key="GridCell.Tab.0.right" timestamp="1602675983931">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="208" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1602675116674" />
+    <state width="1320" height="208" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1602675983931" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1602673927591">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

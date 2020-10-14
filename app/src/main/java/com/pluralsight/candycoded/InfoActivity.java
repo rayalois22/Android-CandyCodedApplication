@@ -54,20 +54,13 @@ public class InfoActivity extends AppCompatActivity {
     // DONE
     // ***
 
-    private void createMapIntent(View view) {
-        String address = mTextViewAddress.getText().toString(); // "618 E South Orlando, FL";
-        Uri addressUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
+    public void createMapIntent(View view) {
+//        String address = mTextViewAddress.getText().toString(); // "618 E South Orlando, FL";
+        Uri addressUri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
         Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
         intent.setPackage("com.google.android.apps.maps");
 
-        List<ResolveInfo> activities = getPackageManager().queryIntentActivities(intent, 0);
-
-        if(activities.isEmpty())
-        {
-            Toast.makeText(this, "Google Maps is not installed on your device!", Toast.LENGTH_LONG).show();
-        }
-
-        if(! activities.isEmpty())
+        if( intent.resolveActivity(getPackageManager()) != null)
         {
             startActivity(intent);
         }
