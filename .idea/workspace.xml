@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,17 +137,37 @@
       <option name="presentableId" value="Default" />
       <updated>1572482991570</updated>
     </task>
+    <task id="LOCAL-00001" summary="Task 1 - Show Info Activity - Done">
+      <created>1602646777040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602646777040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task 1 - Show Store Information Activity - Done">
+      <created>1602646949616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602646949616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 1 - Show Info Activity - Done" />
+    <MESSAGE value="Task 1 - Show Store Information Activity - Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1 - Show Store Information Activity - Done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1602646466626">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1602646466626" />
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602646775567">
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602649296996">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602646775567" />
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602649296996" />
     <state width="1320" height="128" key="GridCell.Tab.0.bottom" timestamp="1602646520864">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
