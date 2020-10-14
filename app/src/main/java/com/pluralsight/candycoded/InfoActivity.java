@@ -35,7 +35,7 @@ public class InfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // launches google maps activity
-                launchGoogleMapsActivity(view);
+                createMapIntent(view);
             }
         });
 
@@ -54,7 +54,7 @@ public class InfoActivity extends AppCompatActivity {
     // DONE
     // ***
 
-    private void launchGoogleMapsActivity(View view) {
+    private void createMapIntent(View view) {
         String address = mTextViewAddress.getText().toString(); // "618 E South Orlando, FL";
         Uri addressUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
         Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
