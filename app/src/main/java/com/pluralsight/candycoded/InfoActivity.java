@@ -16,6 +16,9 @@ import java.util.List;
 
 public class InfoActivity extends AppCompatActivity {
 
+    private TextView mTextViewAddress;
+    private TextView mTextViewPhone;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +30,8 @@ public class InfoActivity extends AppCompatActivity {
                 load(uri).
                 into(candyStoreImageView);
 
-        TextView textViewAddress = (TextView) findViewById(R.id.text_view_address);
-        textViewAddress.setOnClickListener(new View.OnClickListener() {
+        mTextViewAddress = (TextView) findViewById(R.id.text_view_address);
+        mTextViewAddress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // launches google maps activity
@@ -36,8 +39,8 @@ public class InfoActivity extends AppCompatActivity {
             }
         });
 
-        TextView textViewPhone = (TextView) findViewById(R.id.text_view_phone);
-        textViewPhone.setOnClickListener(new View.OnClickListener() {
+        mTextViewPhone = (TextView) findViewById(R.id.text_view_phone);
+        mTextViewPhone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // launches the phone activity
@@ -48,11 +51,12 @@ public class InfoActivity extends AppCompatActivity {
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
+    // DONE
     // ***
 
     private void launchGoogleMapsActivity(View view) {
-//        https://developers.google.com/maps/documentation/urls/android-intents
-        Uri addressUri = Uri.parse("geo:37.7749,-122.4194");
+        String address = mTextViewAddress.getText().toString(); // "618 E South Orlando, FL";
+        Uri addressUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
         Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
         intent.setPackage("com.google.android.apps.maps");
 
@@ -71,10 +75,14 @@ public class InfoActivity extends AppCompatActivity {
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
+    // DONE
     // ***
 
     private void launchPhoneActivity(View view) {
-        // code
+        String phone = mTextViewPhone.getText().toString();
+        Uri phoneUri = Uri.fromParts("tel", phone, null);
+        Intent intent = new Intent(Intent.ACTION_DIAL, phoneUri);
+        startActivity(intent);
     }
 
 }

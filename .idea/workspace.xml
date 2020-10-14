@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,23 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1602646949616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task 2 - Launch Google Maps Activity - in progress">
+      <created>1602649298354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602649298354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 1 - Show Info Activity - Done" />
     <MESSAGE value="Task 1 - Show Store Information Activity - Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 - Show Store Information Activity - Done" />
+    <MESSAGE value="Task 2 - Launch Google Maps Activity - in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 - Launch Google Maps Activity - in progress" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1602646466626">
+    <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1602662503016">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1602646466626" />
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602649296996">
+    <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1602662503016" />
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602664065837">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602649296996" />
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602664065837" />
     <state width="1320" height="128" key="GridCell.Tab.0.bottom" timestamp="1602646520864">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -184,5 +194,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="128" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1602646520863" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1602660008229">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1602660008229" />
   </component>
 </project>
