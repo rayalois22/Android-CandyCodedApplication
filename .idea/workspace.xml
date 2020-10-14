@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602664067760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Task 4 - Share current candy - done">
+      <created>1602669026154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602669026154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,17 +180,18 @@
     <MESSAGE value="Task 1 - Show Store Information Activity - Done" />
     <MESSAGE value="Task 2 - Launch Google Maps Activity - in progress" />
     <MESSAGE value="Task 2 - Launch Google Maps Activity - done&#10;Task 3 - Launch Phone Activity - done&#10;Task 4 - Share current candy - in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2 - Launch Google Maps Activity - done&#10;Task 3 - Launch Phone Activity - done&#10;Task 4 - Share current candy - in progress" />
+    <MESSAGE value="Task 4 - Share current candy - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4 - Share current candy - done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1602662503016">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="491" y="110" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1602662503016" />
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602664065837">
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1602669025912">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602664065837" />
+    <state x="289" y="27" width="777" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1602669025912" />
     <state width="1320" height="128" key="GridCell.Tab.0.bottom" timestamp="1602646520864">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
