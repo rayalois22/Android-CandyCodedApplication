@@ -1,18 +1,14 @@
 package com.pluralsight.candycoded;
 
 import android.content.Intent;
-import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
-
-import java.util.List;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -44,7 +40,7 @@ public class InfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // launches the phone activity
-                launchPhoneActivity(view);
+                createPhoneIntent(view);
             }
         });
     }
@@ -55,7 +51,6 @@ public class InfoActivity extends AppCompatActivity {
     // ***
 
     public void createMapIntent(View view) {
-//        String address = mTextViewAddress.getText().toString(); // "618 E South Orlando, FL";
         Uri addressUri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
         Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
         intent.setPackage("com.google.android.apps.maps");
@@ -71,10 +66,12 @@ public class InfoActivity extends AppCompatActivity {
     // DONE
     // ***
 
-    private void launchPhoneActivity(View view) {
-        String phone = mTextViewPhone.getText().toString();
-        Uri phoneUri = Uri.fromParts("tel", phone, null);
-        Intent intent = new Intent(Intent.ACTION_DIAL, phoneUri);
+    public void createPhoneIntent(View view) {
+//        String phone = mTextViewPhone.getText().toString();
+//        Uri phoneUri = Uri.fromParts("tel", phone, null);
+        Uri phoneUri = Uri.parse("tel:0123456789");
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(phoneUri);
         startActivity(intent);
     }
 
