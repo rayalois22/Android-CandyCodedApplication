@@ -21,7 +21,6 @@ public class DetailActivity extends AppCompatActivity {
     public static final String SHARE_DESCRIPTION = "Look at this delicious candy from Candy Coded - ";
     public static final String HASHTAG_CANDYCODED = " #candycoded";
     String mCandyImageUrl = "";
-    Candy mCandy = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +45,6 @@ public class DetailActivity extends AppCompatActivity {
                     CandyEntry.COLUMN_NAME_IMAGE));
             String candyDesc = cursor.getString(cursor.getColumnIndexOrThrow(
                     CandyEntry.COLUMN_NAME_DESC));
-            Integer candyId = cursor.getInt(cursor.getColumnIndexOrThrow(CandyEntry._ID));
-
-            mCandy = new Candy(candyName, mCandyImageUrl, candyPrice, candyDesc);
-
 
             TextView textView = (TextView) this.findViewById(R.id.text_view_name);
             textView.setText(candyName);
@@ -90,15 +85,11 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void shareCandy() {
-        if(mCandy == null) {
-            return;
-        }
+        String text = SHARE_DESCRIPTION + mCandyImageUrl + HASHTAG_CANDYCODED;
 
-        // shares the current candy via email
         Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setType("message/rfc2822");
-        intent.putExtra(Intent.EXTRA_SUBJECT, mCandy.name);
-        intent.putExtra(Intent.EXTRA_TEXT, mCandy.description);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, text);
         startActivity(intent);
     }
 }
